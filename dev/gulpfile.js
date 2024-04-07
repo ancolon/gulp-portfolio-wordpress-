@@ -16,20 +16,20 @@ const beautyHTML = require("gulp-html-beautify");
 // =========================================
 
 function compileSass(){
-    return gulp.src("./src/sass/**/**.scss")
+    return gulp.src("../src/sass/**/**.scss")
     .pipe(scss())
     .pipe(postcss([autoprefixer(), cssSorter()]))
-    .pipe(gulp.dest("./src/css"))
+    .pipe(gulp.dest("../src/css/"))
 
     .pipe(cleanCss())
     .pipe(rename({
         suffix: ".min"
     }))
-    .pipe(gulp.dest("./src/css"))
+    .pipe(gulp.dest("../src/css/"))
 }
 
 function watch(){
-    gulp.watch("./src/sass/**/**.scss", gulp.series(compileSass, browserReload));
+    gulp.watch("../src/sass/**/**.scss", gulp.series(compileSass, browserReload));
 }
 
 function browserInit() {
