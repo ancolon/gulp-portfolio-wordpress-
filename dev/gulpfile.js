@@ -35,7 +35,7 @@ function watch(){
 function browserInit() {
     browser.init({
         server: {
-            baseDir: "./", // サーバーの起点となるディレクトリを指定
+            baseDir: "../", // サーバーの起点となるディレクトリを指定
             index: "index.html"
         }
     });
