@@ -47,7 +47,7 @@ function browserReload(done){
 }
 
 function minJs() {
-    return gulp.src("./js/**.js")
+    return gulp.src("../src/js/**.js")
     .pipe(uglify())
     .pipe(rename({
         suffix: ".min"
