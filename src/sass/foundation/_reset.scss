@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 *,
 *::before,
 *::after{
@@ -69,5 +71,5 @@ textarea:not([rows]){min-height:10em}:target{scroll-margin-block:5ex}
 [type="password"],
 [type="date"],
 textarea {
-    
+
 }
