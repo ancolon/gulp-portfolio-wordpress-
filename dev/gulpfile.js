@@ -67,7 +67,7 @@ function formatHTML(){
 exports.compileSass = compileSass;
 exports.watch = watch;
 exports.browserInit = browserInit;
-exports.dev = gulp.parallel(browserInit, watch);
+exports.default = gulp.parallel(browserInit, watch);
 
 // 圧縮起動！
 exports.minJs = minJs;
