@@ -79,6 +79,8 @@ textarea:not([rows]) {
 
 body {
   font-family: "Noto Sans JP", sans-serif;
+  font-size: 22px;
+  line-height: 1.4;
 }
 
 a {
@@ -87,6 +89,15 @@ a {
 }
 
 img {
+  height: auto;
   max-width: 100%;
-  width: 100%;
+}
+
+.header {
+  color: #000;
+}
+@media (max-width: 767px) {
+  .header {
+    color: red;
+  }
 }

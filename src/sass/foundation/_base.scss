@@ -4,7 +4,8 @@
 
 body {
     font-family: global.$font-jp;
-    
+    line-height: global.$base-lh;
+    font-size: global.$fz-base;
 }
 
 a {
@@ -14,5 +15,5 @@ a {
 
 img {
     max-width: 100%;
-    width: 100%;
+    height: auto;
 }

@@ -7,5 +7,17 @@ $bg-base-color: #ffffff;
 $font-jp: "Noto Sans JP", sans-serif;
 $font-en: "Roboto Condensed", sans-serif;
 
+$fz-base: 22px;
+$base-lh: 1.4;
+
 // インナー
 $main-inner-width: 1418px;
+
+$layout-width-inner: 1200px;
+
+$breakpoints: (
+//キー : 値
+  'sp': "(max-width: 767px)",
+  'tab': "(min-width: 768px) and (max-width: #{$layout-width-inner - 1px})",
+  'pc': "(min-width: #{$layout-width-inner})"
+);
