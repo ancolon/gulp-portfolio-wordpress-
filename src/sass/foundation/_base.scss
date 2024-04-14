@@ -6,6 +6,7 @@ body {
     font-family: global.$font-jp;
     line-height: global.$base-lh;
     font-size: global.$fz-base;
+    transition: .5s;
 }
 
 a {

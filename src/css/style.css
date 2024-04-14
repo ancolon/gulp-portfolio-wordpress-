@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -81,6 +82,7 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 22px;
   line-height: 1.4;
+  transition: 0.5s;
 }
 
 a {
@@ -93,6 +95,12 @@ img {
   max-width: 100%;
 }
 
+.l-inner {
+  margin: auto;
+  max-width: 1418px;
+  padding: 0 95px;
+}
+
 .header {
   color: #000;
 }
@@ -100,4 +108,61 @@ img {
   .header {
     color: red;
   }
+}
+
+.c-btn {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 45px 15px 95px;
+  position: relative;
+}
+.c-btn:hover {
+  background-color: #fff;
+  color: inherit;
+}
+.c-btn::before {
+  font-family: "Font Awesome 6 Free";
+  font-size: 25px;
+  font-weight: 400;
+  left: 15%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c-btn__mail::before {
+  content: "\f0e0";
+}
+
+.c-btn__sns::before {
+  content: "𝕏";
+  font-size: 30px;
+}
+
+.c-btn-top {
+  background-color: #6f6f6f;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 16px;
+}
+.c-btn-top:hover {
+  opacity: 0.8;
+}
+
+.u-m-while {
+  margin: 30px 0;
+}
+
+.u-btn {
+  background-color: aqua;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.dark-theme {
+  background-color: #4a4a4a;
 }

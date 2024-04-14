@@ -1,0 +1,52 @@
+@use "../global" as global;
+
+.c-btn {
+    color: #fff;
+    padding: 15px 45px 15px 95px;
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,0.1);
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+        background-color: #fff;
+        color: inherit;
+    }
+
+    &::before {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 400;
+        font-size: 25px;
+        position: absolute;
+        left: 15%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+.c-btn__mail{
+    &::before {
+        content: "\f0e0";
+    }
+}
+
+.c-btn__sns {
+    &::before {
+        content: "𝕏";
+        font-size: 30px;
+    }
+}
+
+.c-btn-top {
+    background-color: global.$sab-color;
+    padding: 10px 16px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    // position: fixed;
+    // right: 20px;
+    // bottom: 20px;
+    &:hover {
+        opacity: .8;
+    }
+}

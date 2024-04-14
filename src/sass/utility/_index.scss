@@ -1,0 +1,15 @@
+@use "../global" as global;
+
+.u-m-while {
+    margin: 30px 0;
+}
+
+.u-btn {
+    margin-top: 20px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.dark-theme {
+    background-color: global.$main-color;
+}
