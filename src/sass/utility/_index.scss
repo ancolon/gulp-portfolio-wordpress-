@@ -1,8 +1,5 @@
 @use "../global" as global;
-
-.u-m-while {
-    margin: 30px 0;
-}
+@use "u-m-while";
 
 .u-btn {
     margin-top: 20px;
