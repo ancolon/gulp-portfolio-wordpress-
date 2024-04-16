@@ -36,17 +36,3 @@
         font-size: 30px;
     }
 }
-
-.c-btn-top {
-    background-color: global.$sab-color;
-    padding: 10px 16px;
-    border-radius: 50%;
-    color: #fff;
-    cursor: pointer;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    &:hover {
-        opacity: .8;
-    }
-}

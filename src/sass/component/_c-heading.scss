@@ -1,0 +1,24 @@
+@use "../global" as global;
+
+.c-heading {
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    color: #000;
+    position: relative;
+    position: relative;
+    font-family: global.$font-en;
+
+    &::after {
+        content: "-";
+        padding-left: 15px;
+    }
+}
+
+.c-heading span {
+    position: absolute;
+    padding-top: 10px;
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    letter-spacing: normal;
+}
