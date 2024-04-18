@@ -1,2 +1,53 @@
 @use "global" as global;
 
+.p-fv-title {
+    padding: 8%;
+    max-width: 710px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @include global.mq("sp") {
+        position: static;
+        padding: 7vw 11% 20%;
+    }
+}
+
+.p-fv-title__bg {
+    background: url(../img/bg_fv.png) no-repeat center center / contain;
+    
+    @include global.mq("sp") {
+    background: url(../img/sp/bg_fv.png) no-repeat;
+    background-size: 100%;
+    }
+}
+
+.p-fv-title__en {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: global.$font-en;
+
+    &::after {
+        content: "-";
+        padding-left: 20px;
+    }
+
+    @include global.mq("sp") {
+    font-size: 27px;
+    }
+}
+
+.p-fv-t__text-type1 {
+    padding-top: 12px;
+    font-size: 16px;
+    @include global.mq("sp") {
+    font-size: 13px;
+    }
+}
+
+.p-fv-t__text-type2 {
+    font-size: 16px;
+    @include global.mq("sp") {
+    font-size: 13px;
+    line-height: 20px;
+    }
+}

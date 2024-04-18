@@ -4,4 +4,8 @@
     margin:auto;
     max-width: global.$main-inner-width;
     padding: 0 95px;
+
+    @include global.mq('sp') {
+        padding: 0 10px;
+    }
 }
