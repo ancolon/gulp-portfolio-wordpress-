@@ -1,0 +1,26 @@
+@use "global" as global;
+
+.p-box {
+    display: flex;
+    justify-content: center;
+}
+
+.p-box__item {
+    width: calc(26% - 24px);
+    text-align: center;
+    &:not(:first-child) {
+        margin-left: 24px;
+    }
+}
+
+.p-box__image {
+
+}
+
+.p-box__title {
+
+}
+
+.p-box__text {
+
+}

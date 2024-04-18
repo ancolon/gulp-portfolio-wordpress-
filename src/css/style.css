@@ -259,6 +259,19 @@ img {
   }
 }
 
+.p-box {
+  display: flex;
+  justify-content: center;
+}
+
+.p-box__item {
+  text-align: center;
+  width: calc(26% - 24px);
+}
+.p-box__item:not(:first-child) {
+  margin-left: 24px;
+}
+
 .u-m-while {
   margin: 30px 0;
 }
