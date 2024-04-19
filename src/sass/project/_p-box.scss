@@ -3,24 +3,73 @@
 .p-box {
     display: flex;
     justify-content: center;
-}
+    flex-wrap: wrap;
 
-.p-box__item {
-    width: calc(26% - 24px);
-    text-align: center;
-    &:not(:first-child) {
-        margin-left: 24px;
+    @include global.mq("sp") {
+        display: block;
     }
 }
 
-.p-box__image {
+.p-box__item {
+    width: calc(25% - 24px);
+    text-align: center;
+    border: 1px solid #000;
 
+    &:not(:first-child) {
+        margin-left: 24px;
+    }
+
+    @include global.mq("tab") {
+        &:nth-child(2n + 1) {
+            margin-left: 24px;
+        }
+
+        &:nth-child(n + 3) {
+            margin-top: 24px;
+        }
+    }
+
+    @include global.mq("tab") {
+        width: calc(50% - 24px);
+    }
+
+    @include global.mq("sp") {
+        width: 100%;
+    }
+
+    @include global.mq("sp") {
+        &:nth-child(n + 2) {
+            margin-top: 24px;
+        }
+        &:not(:first-child) {
+            margin-left: 0;
+        }
+    }
+}
+
+.p-box__item-number {
+}
+
+.p-box__inner {
+    padding: 20px;
+}
+
+.p-box__image {
+    display: block;
+    margin: 35px auto 0;
 }
 
 .p-box__title {
-
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 .p-box__text {
+    font-size: 16px;
+    text-align: start;
+}
 
+.p-box__text-head {
+    padding-top: 20px;
 }

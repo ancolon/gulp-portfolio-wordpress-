@@ -261,15 +261,72 @@ img {
 
 .p-box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+@media (max-width: 767px) {
+  .p-box {
+    display: block;
+  }
 }
 
 .p-box__item {
+  border: 1px solid #000;
   text-align: center;
-  width: calc(26% - 24px);
+  width: calc(25% - 24px);
 }
 .p-box__item:not(:first-child) {
   margin-left: 24px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .p-box__item:nth-child(2n+1) {
+    margin-left: 24px;
+  }
+  .p-box__item:nth-child(n+3) {
+    margin-top: 24px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .p-box__item {
+    width: calc(50% - 24px);
+  }
+}
+@media (max-width: 767px) {
+  .p-box__item {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .p-box__item:nth-child(n+2) {
+    margin-top: 24px;
+  }
+  .p-box__item:not(:first-child) {
+    margin-left: 0;
+  }
+}
+
+.p-box__inner {
+  padding: 20px;
+}
+
+.p-box__image {
+  display: block;
+  margin: 35px auto 0;
+}
+
+.p-box__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.p-box__text {
+  font-size: 16px;
+  text-align: start;
+}
+
+.p-box__text-head {
+  padding-top: 20px;
 }
 
 .u-m-while {

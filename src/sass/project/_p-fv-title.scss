@@ -14,7 +14,6 @@
 
 .p-fv-title__bg {
     background: url(../img/bg_fv.png) no-repeat center center / contain;
-    
     @include global.mq("sp") {
     background: url(../img/sp/bg_fv.png) no-repeat;
     background-size: 100%;
