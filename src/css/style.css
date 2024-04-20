@@ -115,6 +115,30 @@ img {
   }
 }
 
+.l-work-item-left:not(:first-child) {
+  margin-left: 90px;
+}
+
+.l-box__item-margin:not(:first-child) {
+  margin-left: 24px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .l-box__item-margin:nth-child(2n+1) {
+    margin-left: 24px;
+  }
+  .l-box__item-margin:nth-child(n+3) {
+    margin-top: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .l-box__item-margin:nth-child(n+2) {
+    margin-top: 45px;
+  }
+  .l-box__item-margin:not(:first-child) {
+    margin-left: 0;
+  }
+}
+
 .c-btn {
   background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid #fff;
@@ -150,12 +174,9 @@ img {
 .c-btn-top {
   background-color: #6f6f6f;
   border-radius: 50%;
-  bottom: 20px;
   color: #fff;
   cursor: pointer;
   padding: 10px 16px;
-  position: fixed;
-  right: 20px;
 }
 .c-btn-top:hover {
   opacity: 0.8;
@@ -201,11 +222,8 @@ img {
 }
 
 .p-fv-title {
-  bottom: 0;
-  left: 0;
   max-width: 710px;
   padding: 8%;
-  position: absolute;
 }
 @media (max-width: 767px) {
   .p-fv-title {
@@ -276,17 +294,6 @@ img {
   text-align: center;
   width: calc(25% - 24px);
 }
-.p-box__item:not(:first-child) {
-  margin-left: 24px;
-}
-@media (min-width: 768px) and (max-width: 1199px) {
-  .p-box__item:nth-child(2n+1) {
-    margin-left: 24px;
-  }
-  .p-box__item:nth-child(n+3) {
-    margin-top: 45px;
-  }
-}
 @media (min-width: 768px) and (max-width: 1199px) {
   .p-box__item {
     width: calc(50% - 24px);
@@ -295,14 +302,6 @@ img {
 @media (max-width: 767px) {
   .p-box__item {
     width: 100%;
-  }
-}
-@media (max-width: 767px) {
-  .p-box__item:nth-child(n+2) {
-    margin-top: 45px;
-  }
-  .p-box__item:not(:first-child) {
-    margin-left: 0;
   }
 }
 
@@ -339,6 +338,26 @@ img {
 
 .p-box__text-head {
   padding-top: 20px;
+}
+
+.p-works {
+  display: flex;
+  justify-content: center;
+}
+
+.p-work-item__image {
+  box-shadow: 10px 10px 30px -10px #000;
+  display: block;
+}
+
+.p-work-item__name {
+  margin-top: 25px;
+}
+
+.p-work-item__btn {
+  display: block;
+  margin-top: 10px;
+  text-decoration: underline;
 }
 
 .u-m-while {

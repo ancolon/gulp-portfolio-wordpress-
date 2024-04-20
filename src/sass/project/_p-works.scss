@@ -1,2 +1,25 @@
 @use "global" as global;
 
+.p-works {
+    display: flex;
+    justify-content: center;
+}
+
+.p-work-item {
+
+}
+
+.p-work-item__image {
+    display: block;
+    box-shadow: 10px 10px 30px -10px #000;
+}
+
+.p-work-item__name {
+    margin-top: 25px;
+}
+
+.p-work-item__btn {
+    margin-top: 10px;
+    display: block;
+    text-decoration: underline;
+}

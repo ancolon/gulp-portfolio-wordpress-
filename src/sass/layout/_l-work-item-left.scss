@@ -1,0 +1,7 @@
+@use "global" as global;
+
+.l-work-item-left {
+    &:not(:first-child) {
+        margin-left: 90px;
+    }
+}

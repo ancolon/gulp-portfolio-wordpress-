@@ -16,35 +16,12 @@
     border: 1px solid #000;
     position: relative;
 
-    &:not(:first-child) {
-        margin-left: 24px;
-    }
-
-    @include global.mq("tab") {
-        &:nth-child(2n + 1) {
-            margin-left: 24px;
-        }
-
-        &:nth-child(n + 3) {
-            margin-top: 45px;
-        }
-    }
-
     @include global.mq("tab") {
         width: calc(50% - 24px);
     }
 
     @include global.mq("sp") {
         width: 100%;
-    }
-
-    @include global.mq("sp") {
-        &:nth-child(n + 2) {
-            margin-top: 45px;
-        }
-        &:not(:first-child) {
-            margin-left: 0;
-        }
     }
 }
 

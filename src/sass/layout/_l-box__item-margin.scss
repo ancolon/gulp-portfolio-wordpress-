@@ -1,0 +1,27 @@
+@use "global" as global;
+
+.l-box__item-margin {
+
+    &:not(:first-child) {
+        margin-left: 24px;
+    }
+
+    @include global.mq("tab") {
+        &:nth-child(2n + 1) {
+            margin-left: 24px;
+        }
+
+        &:nth-child(n + 3) {
+            margin-top: 45px;
+        }
+    }
+
+    @include global.mq("sp") {
+        &:nth-child(n + 2) {
+            margin-top: 45px;
+        }
+        &:not(:first-child) {
+            margin-left: 0;
+        }
+    }
+}
