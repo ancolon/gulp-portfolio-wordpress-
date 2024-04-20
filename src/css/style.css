@@ -144,6 +144,10 @@ img {
   margin-top: 25px;
 }
 
+.l-img-massage__m {
+  margin-top: 70px;
+}
+
 .c-btn {
   background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid #fff;
@@ -373,10 +377,6 @@ img {
   .p-img-massage {
     display: block;
   }
-}
-
-.p-img-massage__m {
-  margin-top: 70px;
 }
 
 .p-img-massage__i {
