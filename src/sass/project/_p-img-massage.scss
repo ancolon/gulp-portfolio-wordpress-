@@ -2,6 +2,11 @@
 
 .p-img-massage {
     display: flex;
+    flex-shrink: 1;
+
+    @include global.mq("sp") {
+     display: block;
+    }
 }
 
 .p-img-massage__box {
@@ -13,5 +18,10 @@
 }
 
 .p-img-massage__i {
-    max-width: 500px;
+    width: 50%;
+
+    @include global.mq("sp") {
+        margin-top: 20px;
+        width: 100%;
+    }
 }

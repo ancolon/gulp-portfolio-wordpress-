@@ -367,6 +367,12 @@ img {
 
 .p-img-massage {
   display: flex;
+  flex-shrink: 1;
+}
+@media (max-width: 767px) {
+  .p-img-massage {
+    display: block;
+  }
 }
 
 .p-img-massage__m {
@@ -374,7 +380,13 @@ img {
 }
 
 .p-img-massage__i {
-  max-width: 500px;
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .p-img-massage__i {
+    margin-top: 20px;
+    width: 100%;
+  }
 }
 
 .u-m-while {
