@@ -139,6 +139,11 @@ img {
   }
 }
 
+.l-img-massage {
+  margin-right: 55px;
+  margin-top: 25px;
+}
+
 .c-btn {
   background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid #fff;
@@ -358,6 +363,18 @@ img {
   display: block;
   margin-top: 10px;
   text-decoration: underline;
+}
+
+.p-img-massage {
+  display: flex;
+}
+
+.p-img-massage__m {
+  margin-top: 70px;
+}
+
+.p-img-massage__i {
+  max-width: 500px;
 }
 
 .u-m-while {
