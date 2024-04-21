@@ -236,6 +236,11 @@ img {
   position: absolute;
 }
 
+.p-nav-bar {
+  background-color: #4a4a4a;
+  color: #fff;
+}
+
 .p-fv-bg {
   background: url(../img/img_fv.png) no-repeat center center/cover;
   height: 773px;
