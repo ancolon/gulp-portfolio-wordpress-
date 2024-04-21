@@ -1,0 +1,20 @@
+@use "global" as global;
+
+.l-content {
+
+}
+
+.l-content__inner {
+    display: flex;
+}
+
+.l-nav-bar__inner {
+    max-width: 370px;
+    width: 100%;
+    text-align: center;
+}
+
+.l-content__main {
+    flex: 1;
+    max-width: 100%;
+}

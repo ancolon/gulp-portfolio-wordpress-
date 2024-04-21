@@ -78,6 +78,13 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 22px;
@@ -95,30 +102,19 @@ img {
   max-width: 100%;
 }
 
-.l-flex-wrap {
+.l-content__inner {
   display: flex;
 }
 
-.l-nav-bar {
+.l-nav-bar__inner {
   max-width: 370px;
   text-align: center;
   width: 100%;
 }
 
-.l-main-contents {
+.l-content__main {
   flex: 1;
   max-width: 100%;
-}
-
-.l-inner {
-  margin: auto;
-  max-width: 1418px;
-  padding: 0 95px;
-}
-@media (max-width: 767px) {
-  .l-inner {
-    padding: 0 10px;
-  }
 }
 
 .l-work-item-left:not(:first-child) {
@@ -160,12 +156,14 @@ img {
   color: #fff;
   cursor: pointer;
   display: inline-block;
+  max-width: 250px;
   padding: 15px 45px 15px 95px;
   position: relative;
+  width: 100%;
 }
 .c-btn:hover {
   background-color: #fff;
-  color: inherit;
+  color: initial;
 }
 .c-btn::before {
   font-family: "Font Awesome 6 Free";
@@ -236,9 +234,25 @@ img {
   position: absolute;
 }
 
-.p-nav-bar {
+.p-nav {
   background-color: #4a4a4a;
   color: #fff;
+}
+
+.l-nav__inner {
+  text-align: center;
+}
+
+.p-nav-contents {
+  margin-top: 120px;
+}
+
+.p-nav__btn {
+  margin-top: 45px;
+}
+
+.p-nav__btn__item:not(:first-child) {
+  margin-top: 33px;
 }
 
 .p-fv-bg {

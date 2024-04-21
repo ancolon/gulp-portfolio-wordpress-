@@ -65,11 +65,9 @@ select{
 }
 textarea:not([rows]){min-height:10em}:target{scroll-margin-block:5ex}
 
-[type="text"],
-[type="email"],
-[type="tel"],
-[type="password"],
-[type="date"],
-textarea {
-
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

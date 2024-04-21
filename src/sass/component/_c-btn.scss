@@ -8,9 +8,11 @@
     display: inline-block;
     position: relative;
     cursor: pointer;
+    max-width: 250px;
+    width: 100%;
     &:hover {
         background-color: #fff;
-        color: inherit;
+        color: initial;
     }
 
     &::before {
