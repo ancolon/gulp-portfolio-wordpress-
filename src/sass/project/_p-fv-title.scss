@@ -3,9 +3,9 @@
 .p-fv-title {
     padding: 8%;
     max-width: 710px;
-    // position: absolute;
-    // bottom: 0;
-    // left: 0;
+    position: absolute;
+    bottom: 140px;
+    left: 0;
     @include global.mq("sp") {
         position: static;
         padding: 7vw 11% 20%;

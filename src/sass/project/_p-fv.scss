@@ -1,0 +1,10 @@
+@use "global" as global;
+
+.p-fv {
+}
+
+.p-fv-bg {
+    background: url(../img/img_fv.png) no-repeat center center / cover;
+    height: 773px;
+    position: relative;
+}

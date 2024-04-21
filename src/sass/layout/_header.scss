@@ -1,8 +1,0 @@
-@use "../global" as global;
-
-.header {
-    color: #000;
-    @include global.mq(sp) {
-    color: red;
-    }
-}
