@@ -38,3 +38,14 @@
         font-size: 30px;
     }
 }
+
+.c-btn-top {
+    background-color: global.$sab-color;
+    padding: 10px 16px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+        opacity: .8;
+    }
+}

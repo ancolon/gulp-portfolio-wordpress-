@@ -87,7 +87,7 @@ li {
 
 body {
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.4;
   transition: 0.5s;
 }
@@ -106,18 +106,18 @@ img {
   display: flex;
 }
 
-.l-nav-bar__inner {
-  max-width: 370px;
-  text-align: center;
-  width: 100%;
-}
-
 .l-content__main {
   flex: 1;
   max-width: 100%;
 }
 
-.l-work-item-left:not(:first-child) {
+.l-btn-top {
+  bottom: 20px;
+  position: fixed;
+  right: 20px;
+}
+
+.l-work-item:not(:first-child) {
   margin-left: 90px;
 }
 
@@ -150,6 +150,12 @@ img {
   width: 370px;
 }
 
+.l-nav-bar__inner {
+  max-width: 370px;
+  text-align: center;
+  width: 100%;
+}
+
 .l-img-massage {
   margin-right: 55px;
   margin-top: 25px;
@@ -157,6 +163,25 @@ img {
 
 .l-img-massage__m {
   margin-top: 70px;
+}
+
+.l-inner {
+  margin: auto;
+  max-width: 1418px;
+  padding: 0 95px;
+}
+@media (max-width: 767px) {
+  .l-inner {
+    padding: 0 10px;
+  }
+}
+
+.l-section-top__type1 {
+  margin-top: 95px;
+}
+
+.l-section-top__type2 {
+  margin-top: 100px;
 }
 
 .c-btn {
@@ -246,6 +271,7 @@ img {
 .p-nav {
   background-color: #4a4a4a;
   color: #fff;
+  font-size: 22px;
 }
 
 .p-nav__title {

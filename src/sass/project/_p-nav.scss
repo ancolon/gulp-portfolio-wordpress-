@@ -3,6 +3,7 @@
 .p-nav {
     background-color: global.$main-color;
     color: #fff;
+    font-size: 22px;
 }
 
 .p-nav__title {
@@ -14,6 +15,7 @@
 }
 
 .p-nav-contents__item {
+
     &:not(:first-child) {
         margin-top: 50px;
     }

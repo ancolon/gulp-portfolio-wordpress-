@@ -1,6 +1,4 @@
-@use "global" as global;
-
-.l-work-item-left {
+.l-work-item {
     &:not(:first-child) {
         margin-left: 90px;
     }
