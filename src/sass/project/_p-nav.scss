@@ -5,12 +5,18 @@
     color: #fff;
 }
 
-.l-nav__inner {
-    text-align: center;
+.p-nav__title {
+    max-width: 240px;
 }
 
-.p-nav-contents {
+.p-nav__contents {
     margin-top: 120px;
+}
+
+.p-nav-contents__item {
+    &:not(:first-child) {
+        margin-top: 50px;
+    }
 }
 
 .p-nav__btn {
