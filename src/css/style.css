@@ -218,14 +218,14 @@ img {
   font-size: 30px;
 }
 
-.c-btn-top {
+.c-btn__top {
   background-color: #6f6f6f;
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
   padding: 10px 16px;
 }
-.c-btn-top:hover {
+.c-btn__top:hover {
   opacity: 0.8;
 }
 
@@ -296,7 +296,8 @@ img {
 
 .p-fv-bg {
   background: url(../img/img_fv.png) no-repeat center center/cover;
-  height: 773px;
+  height: 100%;
+  max-height: 773px;
   position: relative;
 }
 
@@ -447,6 +448,10 @@ img {
 }
 .p-work-item__btn:hover {
   opacity: 0.5;
+}
+
+.p-service__text {
+  margin-top: 90px;
 }
 
 .p-img-massage {
