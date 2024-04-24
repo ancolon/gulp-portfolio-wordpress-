@@ -106,11 +106,6 @@ img {
   display: flex;
 }
 
-.l-content__main {
-  flex: 1;
-  max-width: 100%;
-}
-
 .l-btn-top {
   bottom: 20px;
   position: fixed;
@@ -249,7 +244,7 @@ img {
 .c-heading {
   color: #000;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: 1.2px;
   position: relative;
   position: relative;
@@ -279,7 +274,9 @@ img {
 }
 
 .p-nav__contents {
+  left: 70px;
   margin-top: 120px;
+  position: fixed;
 }
 
 .p-nav-contents__item:not(:first-child) {
@@ -296,8 +293,7 @@ img {
 
 .p-fv-bg {
   background: url(../img/img_fv.png) no-repeat center center/cover;
-  height: 100%;
-  max-height: 773px;
+  padding-top: 72%;
   position: relative;
 }
 
