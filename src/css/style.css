@@ -11,17 +11,13 @@ html {
   text-size-adjust: none;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td, small, button, time, figure {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
   margin: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 
 ul[role=list],
@@ -106,14 +102,19 @@ img {
   display: flex;
 }
 
+.l-content-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.l-content-flex__space:not(:first-child) {
+  margin-left: 90px;
+}
+
 .l-btn-top {
   bottom: 20px;
   position: fixed;
   right: 20px;
-}
-
-.l-work-item:not(:first-child) {
-  margin-left: 90px;
 }
 
 .l-box__item-margin:not(:first-child) {
@@ -447,7 +448,28 @@ img {
 }
 
 .p-service__text {
+  line-height: 1.5;
   margin-top: 90px;
+}
+
+.p-service__about {
+  margin-top: 60px;
+}
+
+.p-service__about-image {
+  height: 100%;
+  margin: 0 auto;
+  max-height: 82px;
+}
+
+.p-service__about-title {
+  font-weight: 700;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.p-service__about-text {
+  font-size: 14px;
 }
 
 .p-img-massage {

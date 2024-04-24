@@ -11,3 +11,14 @@
 .l-content__main {
     
 }
+
+.l-content-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.l-content-flex__space {
+    &:not(:first-child) {
+        margin-left: 90px;
+    }
+}
