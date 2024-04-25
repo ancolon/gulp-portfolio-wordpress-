@@ -1,12 +1,12 @@
 @use "global" as global;
 
 .p-works {
-    display: flex;
-    justify-content: center;
+    padding-top: 95px;
+    background-color: global.$bg-color;
 }
 
-.p-work-item {
-
+.p-works__item {
+    
 }
 
 .p-work-item__image {
@@ -31,4 +31,8 @@
     &:hover {
         opacity: 0.5;
     }
+}
+
+.p-works__btn {
+    margin: 20px auto 0;
 }

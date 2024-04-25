@@ -49,3 +49,19 @@
         opacity: .8;
     }
 }
+
+.c-btn-type2 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: global.$main-color;
+    cursor: pointer;
+    max-width: 250px;
+    width: 100%;
+    &:hover {
+        background-color: #fff;
+        color: initial;
+    }
+}
