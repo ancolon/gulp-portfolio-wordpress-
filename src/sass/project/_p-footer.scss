@@ -1,0 +1,46 @@
+@use "global" as global;
+
+.p-footer {
+
+}
+
+.p-footer__title {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.p-footer__title span {
+    padding-top: 26px;
+    font-weight: 400;
+    font-size: 17px;
+    display: block;
+}
+
+.p-footer__contact-btn {
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p-footer__contacts {
+    padding-top: 110px;
+    padding-bottom: 70px;
+    flex: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.p-footer__contact {
+    background: global.$sab-color;
+}
+
+.p-footer__sns {
+    background: global.$main-color;
+}
+
+.p-footer__copyright {
+    padding-top: 30px;
+    padding-bottom: 18px;
+    color: #000;
+    text-align: center;
+}

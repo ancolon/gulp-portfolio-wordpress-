@@ -11,7 +11,7 @@
 }
 
 .p-box__item {
-    width: calc(25% - 24px);
+    width: calc(25% - 18px);
     text-align: center;
     border: 1px solid #000;
     position: relative;
@@ -37,7 +37,7 @@
 }
 
 .p-box__inner {
-    padding: 20px;
+    padding: 15px;
 }
 
 .p-box__image {
@@ -52,7 +52,7 @@
 }
 
 .p-box__text {
-    font-size: 16px;
+    font-size: 14px;
     text-align: start;
 }
 

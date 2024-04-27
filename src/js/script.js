@@ -8,4 +8,5 @@ color_btn.addEventListener('click',()=>{
     } else {
         color_btn.textContent = "ダークモード";
     }
-})
+});
+
