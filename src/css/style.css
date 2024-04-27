@@ -137,10 +137,6 @@ img {
   }
 }
 
-.l-nav__title {
-  margin: 90px auto 0;
-}
-
 .l-nav__inner {
   text-align: center;
   width: 370px;
@@ -295,6 +291,8 @@ img {
 }
 
 .p-nav__title {
+  font-size: 32px;
+  line-height: 1.4;
   max-width: 240px;
 }
 
