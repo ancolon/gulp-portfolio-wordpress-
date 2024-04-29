@@ -20,6 +20,11 @@
     margin-top: 120px;
     position: fixed;
     left: 70px;
+
+    @include global.mq('tab') {
+        left: 0;
+        margin-top: 60px;
+    }
 }
 
 .p-nav-contents__item {

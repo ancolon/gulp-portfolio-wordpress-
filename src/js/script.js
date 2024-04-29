@@ -1,3 +1,15 @@
+jQuery(window).on('scroll' , function(){
+    if( 100 < jQuery(this).scrollTop()){
+      jQuery('.c-btn__top').addClass('u-is-show')
+    }else {
+      jQuery('.c-btn__top').removeClass('u-is-show')
+    };
+  });
+
+  jQuery('.c-btn__top').on('click',function(){
+    
+  });
+
 const color_btn = document.querySelector('#color-btn');
 
 color_btn.addEventListener('click',()=>{
@@ -9,5 +21,3 @@ color_btn.addEventListener('click',()=>{
         color_btn.textContent = "ダークモード";
     }
 });
-
-

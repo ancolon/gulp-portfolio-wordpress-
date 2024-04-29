@@ -41,9 +41,12 @@
 
 .c-btn__top {
     background-color: global.$sab-color;
-    padding: 10px 16px;
+    padding: 12px 16px;
     border-radius: 50%;
     color: #fff;
+    opacity: 0;
+    overflow: hidden;
+    transition: .4s;
     cursor: pointer;
     &:hover {
         opacity: .8;
