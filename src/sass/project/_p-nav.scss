@@ -4,31 +4,31 @@
     background-color: global.$main-color;
     color: #fff;
     font-size: 22px;
+    padding: 20px;
 }
 
 .p-nav__title {
-    max-width: 240px;
+    max-width: 290px;
     font-size: 32px;
     line-height: 1.4;
-    margin: auto;
+    padding: 12px;
+    margin:0 auto;
 
     @include global.mq('tab') {
-        font-size: 2.8vw;
+        font-size: 2.3vw;
     }
 }
 
 .p-nav__inner {
-    
+    position: sticky;
+    top: 20px;
 }
 
 .p-nav__contents {
-    margin-top: 120px;
-    position: fixed;
-    left: 70px;
+    // margin-top: 120px;
 
     @include global.mq('tab') {
-        left: 0;
-        margin-top: 60px;
+        // margin-top: 60px;
         font-size: 16px;
     }
 }

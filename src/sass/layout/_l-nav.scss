@@ -9,8 +9,7 @@
     width: 370px;
 
     @include global.mq('tab') {
-        max-width: 300px;
-        width: 30vw;
+        width: 20vh;
     }
 }
 

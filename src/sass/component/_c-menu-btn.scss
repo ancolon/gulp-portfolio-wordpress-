@@ -5,6 +5,7 @@
     font-weight: 600;
     letter-spacing: 1.2px;
     font-family: global.$font-en;
+    padding: 10px;
 
     &::after {
         content: "-";
@@ -16,6 +17,7 @@
     }
 
     &:hover {
-        opacity: .8;
+        background-color: global.$bg-base-color;
+        color: global.$main-color;
     }
 }

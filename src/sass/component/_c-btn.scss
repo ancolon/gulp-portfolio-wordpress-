@@ -2,16 +2,18 @@
 
 .c-btn {
     color: #fff;
-    padding: 15px 45px 15px 95px;
+    padding: 10px;
     border: 1px solid #fff;
     background-color: rgba(0,0,0,0.1);
     display: inline-block;
-    position: relative;
     cursor: pointer;
     max-width: 250px;
     width: 100%;
     font-weight: 700;
     font-family: global.$font-en;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
         background-color: #fff;
@@ -22,10 +24,7 @@
         font-family: "Font Awesome 6 Free";
         font-weight: 400;
         font-size: 25px;
-        position: absolute;
-        left: 15%;
-        top: 50%;
-        transform: translate(-50%,-50%);
+        padding-right: 10px;
     }
 }
 
