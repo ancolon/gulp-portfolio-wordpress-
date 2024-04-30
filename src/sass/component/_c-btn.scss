@@ -70,3 +70,12 @@
         color: initial;
     }
 }
+
+.c-btn-nav-contact {
+    background-color: global.$bg-base-color;
+    color: global.$main-color;
+
+    &:hover {
+        opacity: .8;
+    }
+}

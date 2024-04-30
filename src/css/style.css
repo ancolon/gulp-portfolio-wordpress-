@@ -262,6 +262,14 @@ img {
   color: initial;
 }
 
+.c-btn-nav-contact {
+  background-color: #ffffff;
+  color: #4a4a4a;
+}
+.c-btn-nav-contact:hover {
+  opacity: 0.8;
+}
+
 .c-side-menu {
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
@@ -608,7 +616,7 @@ img {
 .p-footer__copyright {
   color: #000;
   padding-bottom: 18px;
-  padding-top: 30px;
+  padding-top: 18px;
   text-align: center;
 }
 
