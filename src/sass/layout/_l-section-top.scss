@@ -2,6 +2,14 @@
 
 .l-section-top__type1 {
     margin-top: 95px;
+
+    @include global.mq('tab') {
+        margin-top: 55px;
+    }
+
+    @include global.mq('sp') {
+        margin-top: 20px;
+    }
 }
 
 .l-section-top__type2 {

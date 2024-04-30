@@ -22,6 +22,7 @@
 
 .p-work-item__name {
     margin-top: 25px;
+    line-height: 25px;
 }
 
 .p-work-item__btn {
@@ -36,4 +37,8 @@
 
 .p-works__btn {
     margin: 20px auto 0;
+
+    @include global.mq('tab') {
+        margin-top: 40px;
+    }
 }

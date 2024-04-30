@@ -1,7 +1,6 @@
 @use "global" as global;
 
 .p-fv-title {
-    padding: 8%;
     max-width: 710px;
     position: absolute;
     bottom: 140px;
@@ -14,6 +13,7 @@
 
 .p-fv-title__bg {
     background: url(../img/bg_fv.png) no-repeat center center / contain;
+    padding: 7%;
     @include global.mq("sp") {
     background: url(../img/sp/bg_fv.png) no-repeat;
     background-size: 100%;
@@ -35,18 +35,16 @@
     }
 }
 
-.p-fv-t__text-type1 {
-    padding-top: 12px;
+.p-fv-t__text {
     font-size: 16px;
     @include global.mq("sp") {
     font-size: 13px;
     }
 }
 
-.p-fv-t__text-type2 {
-    font-size: 16px;
-    @include global.mq("sp") {
-    font-size: 13px;
-    line-height: 20px;
+.p-fv-t__text-type1 {
+    padding-top: 12px;
+    @include global.mq("tab") {
+    padding-top: 0;
     }
 }

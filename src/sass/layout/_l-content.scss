@@ -20,5 +20,8 @@
 .l-content-flex__space {
     &:not(:first-child) {
         margin-left: 90px;
+        @include global.mq('tab') {
+            margin-left: 6%;
+        }
     }
 }

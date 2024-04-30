@@ -9,22 +9,31 @@
 }
 
 .p-service__about {
-    
 }
 
 .p-service__about-item {
+    flex: 1;
 }
 
 .p-service__about-image {
     margin:0 auto;
-    height: 100%;
-    max-height: 82px;
+    object-fit: cover;
+    height: 30%;
+
+    @include global.mq('tab') {
+        height: 20%;
+    }
 }
 
 .p-service__about-title {
     text-align: center;
     font-weight: 700;
     margin: 24px 0;
+    white-space: nowrap;
+
+    @include global.mq('tab') {
+     font-size: 15px;
+    }
 }
 
 .p-service__about-text {
