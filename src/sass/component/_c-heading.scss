@@ -12,6 +12,10 @@
         content: "-";
         padding-left: 15px;
     }
+
+    @include global.mq('tab') {
+        font-size: 50px;
+    }
 }
 
 .c-heading span {

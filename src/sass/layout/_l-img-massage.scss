@@ -3,6 +3,10 @@
 .l-img-massage {
     margin-top: 25px;
     margin-right: 55px;
+
+    @include global.mq('tab') {
+        margin-right: 20px;
+    }
 }
 
 .l-img-massage__m {

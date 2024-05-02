@@ -4,7 +4,6 @@
     background-color: global.$main-color;
     color: #fff;
     font-size: 22px;
-    padding: 20px;
 }
 
 .p-nav__title {
@@ -25,10 +24,8 @@
 }
 
 .p-nav__contents {
-    // margin-top: 120px;
 
     @include global.mq('tab') {
-        // margin-top: 60px;
         font-size: 16px;
     }
 }

@@ -19,6 +19,7 @@
 
 .p-img-massage__i {
     width: 50%;
+    object-fit: contain;
 
     @include global.mq("sp") {
         margin-top: 20px;

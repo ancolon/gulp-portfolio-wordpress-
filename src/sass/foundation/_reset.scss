@@ -28,7 +28,7 @@ ol[role='list']{
 
 body{
     min-height:100vh;
-    line-height:1.5
+    line-height:1.5;
 }
 h1,
 h2,
@@ -39,6 +39,7 @@ input,
 label{
     line-height:1.1
 }
+
 h1,
 h2,
 h3,
@@ -70,4 +71,17 @@ li {
 
 a {
      line-height: 1;
+}
+
+html {
+    line-height: 1;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    line-height: 1;
 }
