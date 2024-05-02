@@ -20,6 +20,7 @@ $breakpoints: (
 //キー : 値
   'sp': "(max-width: 767px)",
   'tab': "(min-width: 768px) and (max-width: #{$layout-width-inner - 1px})",
+  'tab-pc': "(min-width: 768px)",
   'pc': "(min-width: #{$layout-width-inner})"
 );
 
