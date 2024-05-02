@@ -1,0 +1,34 @@
+@use "../global" as global;
+
+
+.p-drawer-box {
+    position: fixed;
+    left: 0;
+    margin-top: 87px;
+    z-index: 100;
+    background-color: global.$main-color;
+    height: 100%;
+    width: 100%;
+}
+
+
+.p-drawer__list {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.p-drawer__item {
+    &:not(:first-child) {
+        margin-top: 25px;
+    }
+}
+
+.p-drawer__item-btn {
+ margin-left:auto;
+ margin-right:auto;
+ margin-top: 20px;
+}
+
+.p-drawer__item-btn.c-btn__sns::before {
+    padding-right: 0;
+}

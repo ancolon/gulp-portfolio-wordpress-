@@ -1,14 +1,19 @@
 @use "../global" as global;
 
 .p-nav-sp {
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%;
 }
 
-.p-nav__inner {
+.p-nav-sp__inner {
     padding: 17px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid transparent;
 }
 
 .p-nav-sp__title {

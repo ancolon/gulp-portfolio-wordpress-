@@ -1,11 +1,12 @@
 @use "../global" as global;
 
-.c-side-menu {
+.c-nav-item {
     color: #fff;
     font-weight: 600;
     letter-spacing: 1.2px;
     font-family: global.$font-en;
     padding: 10px;
+    display: block;
 
     &::after {
         content: "-";
