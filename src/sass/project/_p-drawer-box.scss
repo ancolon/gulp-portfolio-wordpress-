@@ -3,17 +3,18 @@
 
 .p-drawer-box {
     position: fixed;
-    left: 0;
-    margin-top: 87px;
+    left: 500px;
+    top: 0;
     z-index: 100;
     background-color: global.$main-color;
     height: 100%;
     width: 100%;
+    transition: all .4s;
 }
 
 
 .p-drawer__list {
-    margin-top: 50px;
+    margin-top: 140px;
     text-align: center;
 }
 

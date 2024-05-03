@@ -1,0 +1,39 @@
+@use "../global" as global;
+
+.c-hamburger {
+    display: none;
+}
+
+.c-hamburger__menu {
+    position: fixed;
+    top: 29px;
+    right: 54px;
+    z-index: 200;
+}
+
+.c-hamburger__menu::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 30px;
+    height: 5px;
+    border-radius: 20px;
+    top: 10.5px;
+}
+
+.c-hamburger__menu span {
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        background: #fff;
+        width: 30px;
+        height: 5px;
+        border-radius: 20px;
+    }
+
+    &::after {
+        top: 21px;
+    }
+}
