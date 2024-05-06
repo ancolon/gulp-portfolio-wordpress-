@@ -4,6 +4,11 @@
     padding-top: 95px;
     padding-bottom: 65px;
     background: global.$bg-color;
+
+    @include global.mq('sp') {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
 }
 
 .p-flow__box {

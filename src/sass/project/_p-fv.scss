@@ -7,4 +7,8 @@
     background: url(../img/img_fv.png) no-repeat center center / cover;
     padding-top: 72%;
     position: relative;
+
+    @include global.mq('sp') {
+        padding-bottom: 9%;
+    }
 }

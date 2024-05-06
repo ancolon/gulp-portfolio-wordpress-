@@ -31,5 +31,9 @@
         @include global.mq('tab') {
             margin-left: 6%;
         }
+
+        @include global.mq('sp') {
+            margin-left: 0;
+        }
     }
 }

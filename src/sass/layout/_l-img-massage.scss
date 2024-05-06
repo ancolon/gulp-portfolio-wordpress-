@@ -7,6 +7,11 @@
     @include global.mq('tab') {
         margin-right: 20px;
     }
+
+    @include global.mq('sp') {
+        margin-top: 45px;
+        margin-right: auto;
+    }
 }
 
 .l-img-massage__m {

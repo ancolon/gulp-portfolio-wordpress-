@@ -10,22 +10,31 @@ jQuery(window).on('scroll' , function(){
     
   });
 
+// ハンバーガーメニュー
+
 {
   const hamburger = document.querySelector('#hamburger');
-  const drawer_box = document.getElementsByClassName("p-drawer-box");
-  const hamburger_center = document.getElementsByClassName("");
+  const drawer_box = document.querySelectorAll(".p-drawer-box");
+  const hamburger_item = document.querySelectorAll(".c-nav-item");
   
   hamburger.addEventListener('click', ()=>{
     for (let i = 0; i < drawer_box.length; i++) {
           drawer_box[i].classList.toggle('u-drawer-is-open');
       }
-      console.log(hamburger);
   });
-    // drawer_box.classList.toggle('u-drawer-is-open');
-      // 各要素に対してループを行い、クラスを追加する
-      // for (let i = 0; i < drawer_box.length; i++) {
-      //     drawer_box[i].classList.add('u-drawer-is-open');
-      // }
+
+    for(var i = 0; i < hamburger_item.length; i++){
+      hamburger_item[i].addEventListener('click',function(){
+        for (let i = 0; i < drawer_box.length; i++) {
+          drawer_box[i].classList.remove('u-drawer-is-open');
+      }
+    },false);
+  }
+}
+
+// トップボタン
+{
+
 }
 
 {

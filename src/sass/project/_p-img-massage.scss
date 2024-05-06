@@ -5,12 +5,14 @@
     flex-shrink: 1;
 
     @include global.mq("sp") {
-     display: block;
+     display: grid;
     }
 }
 
 .p-img-massage__box {
-
+    @include global.mq("sp") {
+        order: 2;
+    }
 }
 
 .p-img-massage__m {
@@ -20,9 +22,11 @@
 .p-img-massage__i {
     width: 50%;
     object-fit: contain;
+    margin-top: 20px;
 
     @include global.mq("sp") {
-        margin-top: 20px;
+        margin-top: auto;
         width: 100%;
+        order: 1;
     }
 }

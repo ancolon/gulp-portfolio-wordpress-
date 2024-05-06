@@ -3,6 +3,10 @@
 .p-massage {
     padding-top: 65px;
     padding-bottom: 110px;
+
+    @include global.mq('sp') {
+        padding: 50px 0;
+    }
 }
 
 .p-img-massage__box >.c-heading::after {

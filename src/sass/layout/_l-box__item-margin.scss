@@ -18,7 +18,7 @@
 
     @include global.mq("sp") {
         &:nth-child(n + 2) {
-            margin-top: 45px;
+            margin-top: 47px;
         }
         &:not(:first-child) {
             margin-left: 0;

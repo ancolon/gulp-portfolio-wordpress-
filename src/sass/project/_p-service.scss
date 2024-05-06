@@ -13,6 +13,11 @@
 
 .p-service__about-item {
     flex: 1;
+    display: block;
+
+    @include global.mq('sp') {
+        margin-top: 40px;
+    }
 }
 
 .p-service__about-image {

@@ -16,6 +16,10 @@
     @include global.mq('tab') {
         font-size: 50px;
     }
+
+    @include global.mq('sp') {
+        font-size: 40px;
+    }
 }
 
 .c-heading span {
@@ -25,4 +29,7 @@
     display: block;
     font-size: 16px;
     letter-spacing: normal;
+    @include global.mq('sp'){
+        font-size: 14px;
+    }
 }
