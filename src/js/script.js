@@ -32,9 +32,20 @@ jQuery(window).on('scroll' , function(){
   }
 }
 
-// トップボタン
-{
+// クリックボタンのずらし トップボタンにも対応！
 
+{
+  $(function () {
+    //↓　100px分ずらしたい場合
+        var headerHight = 100;
+        $('a[href^="#"]').click(function () {
+          var href = $(this).attr("href");
+          var target = $(href == "#" || href == "" ? "html" : href);
+          var position = target.offset().top - headerHight;
+          $("html, body").animate({ scrollTop: position }, 1000, "swing");
+          return false;
+        });
+    });
 }
 
 {
