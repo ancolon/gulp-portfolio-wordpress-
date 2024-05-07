@@ -6,34 +6,25 @@
 
 .c-hamburger__menu {
     position: fixed;
-    top: 29px;
-    right: 54px;
+    top: 30px;
+    right: 25px;
     z-index: 200;
 }
 
-.c-hamburger__menu::before {
-    content: "";
-    position: absolute;
+.c-hamburger__menu span {
     background: #fff;
     width: 30px;
     height: 5px;
     border-radius: 20px;
-    top: 10.5px;
+    display: block;
+
+    &:not(:first-child) {
+        margin-top: 5px;
+    }
 }
 
-.c-hamburger__menu span {
+// active
 
-    &::before,
-    &::after {
-        content: "";
-        position: absolute;
-        background: #fff;
-        width: 30px;
-        height: 5px;
-        border-radius: 20px;
-    }
-
-    &::after {
-        top: 21px;
-    }
+.c-hamburger__menu span.active {
+    color: red;
 }

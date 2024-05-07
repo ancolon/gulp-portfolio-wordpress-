@@ -397,31 +397,24 @@ img {
 
 .c-hamburger__menu {
   position: fixed;
-  right: 54px;
-  top: 29px;
+  right: 25px;
+  top: 30px;
   z-index: 200;
 }
 
-.c-hamburger__menu::before {
+.c-hamburger__menu span {
   background: #fff;
   border-radius: 20px;
-  content: "";
+  display: block;
   height: 5px;
-  position: absolute;
-  top: 10.5px;
   width: 30px;
+}
+.c-hamburger__menu span:not(:first-child) {
+  margin-top: 5px;
 }
 
-.c-hamburger__menu span::before, .c-hamburger__menu span::after {
-  background: #fff;
-  border-radius: 20px;
-  content: "";
-  height: 5px;
-  position: absolute;
-  width: 30px;
-}
-.c-hamburger__menu span::after {
-  top: 21px;
+.c-hamburger__menu span.active {
+  color: red;
 }
 
 .p-nav {

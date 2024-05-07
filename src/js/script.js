@@ -21,6 +21,11 @@ jQuery(window).on('scroll' , function(){
     for (let i = 0; i < drawer_box.length; i++) {
           drawer_box[i].classList.toggle('u-drawer-is-open');
       }
+
+      // ハンバーガーアニメーション
+
+      
+
   });
 
     for(var i = 0; i < hamburger_item.length; i++){
@@ -36,7 +41,7 @@ jQuery(window).on('scroll' , function(){
 
 {
   $(function () {
-    //↓　100px分ずらしたい場合
+    //↓100px分ずらしたい場合
         var headerHight = 100;
         $('a[href^="#"]').click(function () {
           var href = $(this).attr("href");
