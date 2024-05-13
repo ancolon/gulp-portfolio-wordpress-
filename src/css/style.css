@@ -407,14 +407,27 @@ img {
   border-radius: 20px;
   display: block;
   height: 5px;
+  transition: ease 0.4s;
   width: 30px;
 }
 .c-hamburger__menu span:not(:first-child) {
   margin-top: 5px;
 }
 
-.c-hamburger__menu span.active {
-  color: red;
+.c-hamburger__menu.u-active span:nth-child(1) {
+  position: absolute;
+  rotate: 45deg;
+  top: 50%;
+}
+
+.c-hamburger__menu.u-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.c-hamburger__menu.u-active span:nth-child(3) {
+  position: absolute;
+  rotate: -45deg;
+  top: 0;
 }
 
 .p-nav {

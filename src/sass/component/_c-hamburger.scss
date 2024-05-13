@@ -16,6 +16,7 @@
     width: 30px;
     height: 5px;
     border-radius: 20px;
+    transition: ease .4s;
     display: block;
 
     &:not(:first-child) {
@@ -23,8 +24,20 @@
     }
 }
 
-// active
+// u-active
 
-.c-hamburger__menu span.active {
-    color: red;
+.c-hamburger__menu.u-active span:nth-child(1) {
+    rotate: 45deg;
+    position: absolute;
+    top: 50%;
+}
+
+.c-hamburger__menu.u-active span:nth-child(2) {
+    opacity: 0;
+}
+
+.c-hamburger__menu.u-active span:nth-child(3) {
+    rotate: -45deg;
+    position: absolute;
+    top: 0;
 }

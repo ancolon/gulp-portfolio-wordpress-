@@ -16,16 +16,17 @@ jQuery(window).on('scroll' , function(){
   const hamburger = document.querySelector('#hamburger');
   const drawer_box = document.querySelectorAll(".p-drawer-box");
   const hamburger_item = document.querySelectorAll(".c-nav-item");
+  const hamburger_icon = document.querySelectorAll("#hamburger-icon");
   
   hamburger.addEventListener('click', ()=>{
     for (let i = 0; i < drawer_box.length; i++) {
           drawer_box[i].classList.toggle('u-drawer-is-open');
       }
 
-      // ハンバーガーアニメーション
-
-      
-
+       // ハンバーガーアニメーション
+       for (let i = 0; i < hamburger_icon.length; i++) {
+        hamburger_icon[i].classList.toggle('u-active');
+    }
   });
 
     for(var i = 0; i < hamburger_item.length; i++){
