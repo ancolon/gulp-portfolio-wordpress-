@@ -15,8 +15,11 @@
     background: url(../img/bg_fv.png) no-repeat center center / contain;
     padding: 7%;
     @include global.mq("sp") {
+    padding: 11% 9% 13%;
     background: url(../img/sp/bg_fv.png) no-repeat;
     background-size: 100%;
+    position: absolute;
+    bottom: 24px;
     }
 }
 
@@ -31,7 +34,7 @@
     }
 
     @include global.mq("sp") {
-    font-size: 27px;
+    font-size: 42px;
     }
 }
 
@@ -39,6 +42,7 @@
     font-size: 16px;
     @include global.mq("sp") {
     font-size: 13px;
+    line-height: 1.5;
     }
 }
 
@@ -46,5 +50,9 @@
     padding-top: 12px;
     @include global.mq("tab") {
     padding-top: 0;
+    }
+
+    @include global.mq("sp") {
+    padding-top: 21px;
     }
 }

@@ -16,7 +16,7 @@
     display: block;
 
     @include global.mq('sp') {
-        margin-top: 40px;
+        margin-top: 33px;
     }
 }
 
@@ -39,8 +39,13 @@
     @include global.mq('tab') {
      font-size: 15px;
     }
+
+    @include global.mq('sp') {
+     margin: 16px 0;
+    }
 }
 
 .p-service__about-text {
     font-size: 14px;
+    line-height: 20px;
 }

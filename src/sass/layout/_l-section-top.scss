@@ -8,7 +8,7 @@
     }
 
     @include global.mq('sp') {
-        margin-top: 50px;
+        margin-top: 56px;
     }
 }
 
@@ -18,10 +18,16 @@
 
 .l-section-top__text {
     margin-top: 85px;
+    @include global.mq('sp') {
+    margin-top: 55px;
+    }
 }
 
 .l-section-top__content {
     margin-top: 60px;
+    @include global.mq('sp') {
+        margin-top: 45px;
+        }
 }
 
 .l-section-btn {

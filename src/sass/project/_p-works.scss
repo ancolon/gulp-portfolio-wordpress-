@@ -6,7 +6,18 @@
     background-color: global.$bg-color;
 
     @include global.mq('sp') {
-        padding-top: 60px;
+        padding-top: 50px;
+        padding-bottom: 48px;
+    }
+}
+
+.p-works__text {
+    line-height: 18px;
+}
+
+.p-works .l-section-top__type1 {
+    @include global.mq('sp') {
+        margin-top: 55px;
     }
 }
 
@@ -14,7 +25,7 @@
     display: inline-block;
     @include global.mq('sp') {
         &:not(:first-child) {
-            margin-top: 40px;
+            margin-top: 43px;
         }
     }
 }
@@ -38,7 +49,7 @@
 }
 
 .p-work-item__name {
-    margin-top: 25px;
+    margin-top: 14px;
     line-height: 25px;
     font-weight: 700;
 }
@@ -47,6 +58,7 @@
     margin-top: 10px;
     display: block;
     text-decoration: underline;
+    font-size: 14px;
 
     &:hover {
         opacity: 0.5;
