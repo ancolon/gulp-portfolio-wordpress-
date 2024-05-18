@@ -3,13 +3,5 @@
 .l-inner {
     margin:auto;
     max-width: global.$main-inner-width;
-    padding: 0 95px;
-
-    @include global.mq('tab') {
-        padding: 0 45px;
-    }
-
-    @include global.mq('sp') {
-        padding: 0 33px;
-    }
+    padding: 0 clamp(2.063rem, 1.182rem + 3.76vw, 4.188rem);
 }

@@ -1,15 +1,7 @@
 @use "../global" as global;
 
 .l-section-top__type1 {
-    margin-top: 95px;
-
-    @include global.mq('tab') {
-        margin-top: 55px;
-    }
-
-    @include global.mq('sp') {
-        margin-top: 56px;
-    }
+    margin-top: clamp(3.5rem, 3.345rem + 0.66vw, 3.875rem);
 }
 
 .l-section-top__type2 {
@@ -32,4 +24,10 @@
 
 .l-section-btn {
     margin: 0 auto;
+}
+
+.p-flow__text.l-section-top__text {
+    @include global.mq('sp') {
+     margin-top: 57px;
+    }
 }

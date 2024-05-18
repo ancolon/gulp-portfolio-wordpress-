@@ -11,12 +11,19 @@
 .p-service__about {
 }
 
+
 .p-service__about-item {
     flex: 1;
     display: block;
 
     @include global.mq('sp') {
         margin-top: 33px;
+    }
+}
+
+.p-service__about-item:not(:first-child) {
+    @include global.mq('sp') {
+        margin-top: 36px;
     }
 }
 
@@ -41,7 +48,8 @@
     }
 
     @include global.mq('sp') {
-     margin: 16px 0;
+    margin: 22px 0 10px;
+    font-size: 14px;
     }
 }
 

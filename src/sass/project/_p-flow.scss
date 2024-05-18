@@ -6,11 +6,18 @@
     background: global.$bg-color;
 
     @include global.mq('sp') {
-        padding-top: 60px;
+        padding-top: 63px;
         padding-bottom: 50px;
     }
 }
 
 .p-flow__box {
     margin-top: 95px;
+    @include global.mq('sp') {
+        margin-top: 65px;
+    }
+}
+
+.p-flow__text {
+    line-height: 23px;
 }

@@ -34,6 +34,10 @@
     left: 50%;
     transform: translate(-50%,-50%);
     font-weight: 600;
+
+    @include global.mq('sp') {
+        padding: 10px 17px;
+    }
 }
 
 .p-box__inner {
@@ -49,13 +53,24 @@
     font-weight: 600;
     font-size: 18px;
     margin-top: 30px;
+
+    @include global.mq('sp') {
+        font-size: 14px;
+        margin-top: 25px;
+    }
 }
 
 .p-box__text {
     font-size: 14px;
     text-align: start;
+    @include global.mq('sp') {
+    line-height: 23px;
+    }
 }
 
 .p-box__text-head {
     padding-top: 20px;
+    @include global.mq('sp') {
+    padding-top: 16px;
+    }
 }

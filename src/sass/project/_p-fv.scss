@@ -5,10 +5,6 @@
 
 .p-fv-bg {
     background: url(../img/img_fv.png) no-repeat center center / cover;
-    padding-top: 72%;
+    padding-top: 34.5rem;
     position: relative;
-
-    @include global.mq('sp') {
-        padding-top: 147%;
-    }
 }

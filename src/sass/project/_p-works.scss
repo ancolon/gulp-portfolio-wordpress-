@@ -6,18 +6,18 @@
     background-color: global.$bg-color;
 
     @include global.mq('sp') {
-        padding-top: 50px;
+        padding-top: 60px;
         padding-bottom: 48px;
     }
 }
 
 .p-works__text {
-    line-height: 18px;
+    line-height: 17px;
 }
 
-.p-works .l-section-top__type1 {
+.p-works.l-section-top__type1 {
     @include global.mq('sp') {
-        margin-top: 55px;
+        margin-top: 50px;
     }
 }
 

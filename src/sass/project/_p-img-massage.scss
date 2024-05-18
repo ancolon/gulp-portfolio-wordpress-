@@ -16,7 +16,9 @@
 }
 
 .p-img-massage__m {
-
+    @include global.mq("sp") {
+        line-height: 19px;
+    }
 }
 
 .p-img-massage__i {

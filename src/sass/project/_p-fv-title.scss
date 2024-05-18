@@ -3,7 +3,7 @@
 .p-fv-title {
     max-width: 710px;
     position: absolute;
-    bottom: 140px;
+    bottom: 75px;
     left: 0;
     @include global.mq("sp") {
         position: static;
@@ -13,7 +13,7 @@
 
 .p-fv-title__bg {
     background: url(../img/bg_fv.png) no-repeat center center / contain;
-    padding: 7%;
+    padding: 6.5% 3% 6.5% 10%;
     @include global.mq("sp") {
     padding: 11% 9% 13%;
     background: url(../img/sp/bg_fv.png) no-repeat;
@@ -39,15 +39,14 @@
 }
 
 .p-fv-t__text {
-    font-size: 16px;
+    font-size: clamp(0.813rem, 0.735rem + 0.33vw, 1rem);
     @include global.mq("sp") {
-    font-size: 13px;
     line-height: 1.5;
     }
 }
 
 .p-fv-t__text-type1 {
-    padding-top: 12px;
+    padding-top: 21px;
     @include global.mq("tab") {
     padding-top: 0;
     }

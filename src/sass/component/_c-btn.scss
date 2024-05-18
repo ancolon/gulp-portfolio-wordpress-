@@ -2,7 +2,7 @@
 
 .c-btn {
     color: #fff;
-    padding: 10px;
+    padding: clamp(0.625rem, 0.573rem + 0.22vw, 0.75rem);
     border: 1px solid #fff;
     background-color: rgba(0,0,0,0.1);
     display: inline-block;
@@ -23,8 +23,12 @@
     &::before {
         font-family: "Font Awesome 6 Free";
         font-weight: 400;
-        font-size: 25px;
+        font-size: clamp(1.25rem, 1.121rem + 0.55vw, 1.563rem);
         padding-right: 10px;
+    }
+
+    @include global.mq('sp') {
+        font-size: 17px;
     }
 }
 
@@ -37,7 +41,6 @@
 .c-btn__sns {
     &::before {
         content: "𝕏";
-        font-size: 30px;
     }
 }
 
