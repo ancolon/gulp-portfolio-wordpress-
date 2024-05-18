@@ -28,7 +28,12 @@
 .p-drawer__item-btn {
  margin-left:auto;
  margin-right:auto;
- margin-top: 20px;
+ margin-top: 23px;
+ max-width: 162px;
+}
+
+.p-drawer__item-btn.c-btn__sns {
+    margin-top: 28px;
 }
 
 .p-drawer__item-btn.c-btn__sns::before {

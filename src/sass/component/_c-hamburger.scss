@@ -26,6 +26,15 @@
 
 // u-active
 
+.c-hamburger__menu.u-active {
+    top: 36px;
+    right: 21px;
+}
+
+.c-hamburger__menu.u-active span {
+    width: 37px;
+}
+
 .c-hamburger__menu.u-active span:nth-child(1) {
     rotate: 45deg;
     position: absolute;

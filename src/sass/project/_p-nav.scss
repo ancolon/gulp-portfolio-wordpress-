@@ -8,7 +8,7 @@
 
 .p-nav__title {
     max-width: 290px;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.4;
     padding: 12px;
     margin:0 auto;
@@ -34,8 +34,12 @@
 
 .p-nav-contents__item {
 
-    &:not(:first-child) {
-        margin-top: 30px;
+    &:nth-of-type(1) {
+        margin-top: 55px;
+    }
+
+    &:nth-of-type(1n + 2) {
+        margin-top: 16px;
         @include global.mq('tab') {
             margin-top: 10px;
         }
@@ -47,11 +51,11 @@
 }
 
 .p-nav__btn {
-    margin-top: 45px;
+    margin-top: 28px;
 }
 
 .p-nav__btn__item {
     &:not(:first-child) {
-        margin-top: 33px;
+        margin-top: 22px;
     }
 }

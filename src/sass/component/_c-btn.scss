@@ -2,12 +2,12 @@
 
 .c-btn {
     color: #fff;
-    padding: clamp(0.625rem, 0.573rem + 0.22vw, 0.75rem);
+    padding: 5px;
     border: 1px solid #fff;
     background-color: rgba(0,0,0,0.1);
     display: inline-block;
     cursor: pointer;
-    max-width: 250px;
+    max-width: 162px;
     width: 100%;
     font-weight: 700;
     font-family: global.$font-en;
