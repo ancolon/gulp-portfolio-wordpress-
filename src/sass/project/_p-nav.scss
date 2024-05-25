@@ -8,7 +8,7 @@
 
 .p-nav__title {
     max-width: 290px;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.4;
     padding: 12px;
     margin:0 auto;
@@ -21,7 +21,7 @@
 .p-nav__inner {
     @include global.mq('tab-pc') {
         position: sticky;
-        top: 20px;
+        top: 37px;
     }
 }
 
@@ -39,7 +39,7 @@
     }
 
     &:nth-of-type(1n + 2) {
-        margin-top: 16px;
+        margin-top: 24px;
         @include global.mq('tab') {
             margin-top: 10px;
         }
@@ -51,7 +51,7 @@
 }
 
 .p-nav__btn {
-    margin-top: 28px;
+    margin-top: 24px;
 }
 
 .p-nav__btn__item {

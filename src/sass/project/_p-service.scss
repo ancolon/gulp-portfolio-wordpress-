@@ -30,7 +30,6 @@
 .p-service__about-image {
     margin:0 auto;
     object-fit: cover;
-    height: 30%;
 
     @include global.mq('tab') {
         height: 20%;
@@ -40,8 +39,9 @@
 .p-service__about-title {
     text-align: center;
     font-weight: 700;
-    margin: 24px 0;
+    margin: 6% 0 15px;
     white-space: nowrap;
+    font-size: 13px;
 
     @include global.mq('tab') {
      font-size: 15px;

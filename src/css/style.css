@@ -139,7 +139,7 @@ img {
 }
 
 .l-content-flex__space:not(:first-child) {
-  margin-left: 90px;
+  margin-left: 70px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .l-content-flex__space:not(:first-child) {
@@ -230,7 +230,7 @@ img {
 }
 
 .l-section-top__text {
-  margin-top: 85px;
+  margin-top: 50px;
 }
 @media (max-width: 767px) {
   .l-section-top__text {
@@ -239,7 +239,7 @@ img {
 }
 
 .l-section-top__content {
-  margin-top: 60px;
+  margin-top: 48px;
 }
 @media (max-width: 767px) {
   .l-section-top__content {
@@ -360,8 +360,9 @@ img {
   color: #000;
   font-family: "Roboto Condensed", sans-serif;
   font-size: clamp(2.5rem, 1.982rem + 2.21vw, 3.75rem);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1.2px;
+  letter-spacing: 4px;
   position: relative;
 }
 .c-heading::after {
@@ -371,7 +372,7 @@ img {
 
 .c-heading span {
   display: block;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 400;
   letter-spacing: normal;
   padding-top: 10px;
@@ -439,7 +440,7 @@ img {
 }
 
 .p-nav__title {
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.4;
   margin: 0 auto;
   max-width: 290px;
@@ -454,7 +455,7 @@ img {
 @media (min-width: 768px) {
   .p-nav__inner {
     position: sticky;
-    top: 20px;
+    top: 37px;
   }
 }
 
@@ -468,7 +469,7 @@ img {
   margin-top: 55px;
 }
 .p-nav-contents__item:nth-of-type(1n + 2) {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .p-nav-contents__item:nth-of-type(1n + 2) {
@@ -482,7 +483,7 @@ img {
 }
 
 .p-nav__btn {
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .p-nav__btn__item:not(:first-child) {
@@ -558,7 +559,7 @@ img {
 
 .p-fv-title__bg {
   background: url(../img/bg_fv.png) no-repeat center center/contain;
-  padding: 6.5% 3% 6.5% 10%;
+  padding: 6.5% 3% 6.7% 10%;
 }
 @media (max-width: 767px) {
   .p-fv-title__bg {
@@ -731,7 +732,7 @@ img {
 .p-works {
   background-color: #fafafa;
   padding-bottom: 70px;
-  padding-top: 95px;
+  padding-top: 50px;
 }
 @media (max-width: 767px) {
   .p-works {
@@ -780,6 +781,7 @@ img {
   font-weight: 700;
   line-height: 25px;
   margin-top: 14px;
+  text-wrap: wrap;
 }
 
 .p-work-item__btn {
@@ -829,7 +831,6 @@ img {
 .p-service__about-image {
   margin: 0 auto;
   -o-object-fit: cover;
-  height: 30%;
      object-fit: cover;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -839,8 +840,9 @@ img {
 }
 
 .p-service__about-title {
+  font-size: 13px;
   font-weight: 700;
-  margin: 24px 0;
+  margin: 6% 0 15px;
   text-align: center;
   white-space: nowrap;
 }
@@ -859,6 +861,10 @@ img {
 .p-service__about-text {
   font-size: 14px;
   line-height: 20px;
+}
+
+.p-about__contents {
+  margin-top: 40px;
 }
 
 .p-flow {
