@@ -159,7 +159,7 @@ img {
 }
 
 .l-box__item-margin:not(:first-child) {
-  margin-left: 24px;
+  margin-left: 22px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .l-box__item-margin:nth-child(2n+1) {
@@ -196,8 +196,8 @@ img {
 }
 
 .l-img-massage {
-  margin-right: 55px;
-  margin-top: 25px;
+  margin-right: 46px;
+  margin-top: 19px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .l-img-massage {
@@ -212,7 +212,7 @@ img {
 }
 
 .l-img-massage__m {
-  margin-top: 55px;
+  margin-top: 45px;
 }
 
 .l-inner {
@@ -643,7 +643,7 @@ img {
   font-size: 27px;
   font-weight: 600;
   left: 50%;
-  padding: 10px 20px;
+  padding: 10px 17px;
   position: absolute;
   transform: translate(-50%, -50%);
 }
@@ -663,9 +663,9 @@ img {
 }
 
 .p-box__title {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
-  margin-top: 30px;
+  margin-top: 22px;
 }
 @media (max-width: 767px) {
   .p-box__title {
@@ -676,6 +676,7 @@ img {
 
 .p-box__text {
   font-size: 14px;
+  line-height: 16px;
   text-align: start;
 }
 @media (max-width: 767px) {
@@ -709,6 +710,10 @@ img {
   }
 }
 
+.p-img-massage__m {
+  font-size: 15px;
+  line-height: 24px;
+}
 @media (max-width: 767px) {
   .p-img-massage__m {
     line-height: 19px;
@@ -716,9 +721,8 @@ img {
 }
 
 .p-img-massage__i {
-  width: 50%;
+  width: 40.3%;
   -o-object-fit: contain;
-  margin-top: 20px;
      object-fit: contain;
 }
 @media (max-width: 767px) {
@@ -731,7 +735,7 @@ img {
 
 .p-works {
   background-color: #fafafa;
-  padding-bottom: 70px;
+  padding-bottom: 45px;
   padding-top: 50px;
 }
 @media (max-width: 767px) {
@@ -778,6 +782,7 @@ img {
 }
 
 .p-work-item__name {
+  font-size: 17px;
   font-weight: 700;
   line-height: 25px;
   margin-top: 14px;
@@ -863,14 +868,18 @@ img {
   line-height: 20px;
 }
 
-.p-about__contents {
-  margin-top: 40px;
+.p-about {
+  padding-bottom: 11px;
+}
+
+.p-about.l-section-top__type1 {
+  margin-top: 50px;
 }
 
 .p-flow {
   background: #fafafa;
   padding-bottom: 65px;
-  padding-top: 95px;
+  padding-top: 45px;
 }
 @media (max-width: 767px) {
   .p-flow {
@@ -880,7 +889,7 @@ img {
 }
 
 .p-flow__box {
-  margin-top: 95px;
+  margin-top: 64px;
 }
 @media (max-width: 767px) {
   .p-flow__box {
@@ -893,8 +902,8 @@ img {
 }
 
 .p-massage {
-  padding-bottom: 110px;
-  padding-top: 65px;
+  padding-bottom: 80px;
+  padding-top: 32px;
 }
 @media (max-width: 767px) {
   .p-massage {

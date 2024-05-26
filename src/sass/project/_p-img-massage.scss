@@ -16,15 +16,16 @@
 }
 
 .p-img-massage__m {
+    line-height: 24px;
+    font-size: 15px;
     @include global.mq("sp") {
         line-height: 19px;
     }
 }
 
 .p-img-massage__i {
-    width: 50%;
+    width: 40.3%;
     object-fit: contain;
-    margin-top: 20px;
 
     @include global.mq("sp") {
         margin-top: auto;

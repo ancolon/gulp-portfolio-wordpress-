@@ -1,8 +1,8 @@
 @use "global" as global;
 
 .l-img-massage {
-    margin-top: 25px;
-    margin-right: 55px;
+    margin-top: 19px;
+    margin-right: 46px;
 
     @include global.mq('tab') {
         margin-right: 20px;
@@ -15,5 +15,5 @@
 }
 
 .l-img-massage__m {
-    margin-top: 55px;
+    margin-top: 45px;
 }

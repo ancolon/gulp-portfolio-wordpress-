@@ -3,7 +3,7 @@
 .l-box__item-margin {
 
     &:not(:first-child) {
-        margin-left: 24px;
+        margin-left: 22px;
     }
 
     @include global.mq("tab") {

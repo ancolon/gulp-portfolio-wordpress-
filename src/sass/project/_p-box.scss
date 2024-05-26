@@ -30,7 +30,7 @@
     background-color: global.$main-color;
     color: #fff;
     font-size: 27px;
-    padding: 10px 20px;
+    padding: 10px 17px;
     left: 50%;
     transform: translate(-50%,-50%);
     font-weight: 600;
@@ -51,8 +51,8 @@
 
 .p-box__title {
     font-weight: 600;
-    font-size: 18px;
-    margin-top: 30px;
+    font-size: 15px;
+    margin-top: 22px;
 
     @include global.mq('sp') {
         font-size: 14px;
@@ -63,6 +63,7 @@
 .p-box__text {
     font-size: 14px;
     text-align: start;
+    line-height: 16px;
     @include global.mq('sp') {
     line-height: 23px;
     }

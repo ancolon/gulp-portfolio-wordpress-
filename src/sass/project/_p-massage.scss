@@ -1,8 +1,8 @@
 @use "global" as global;
 
 .p-massage {
-    padding-top: 65px;
-    padding-bottom: 110px;
+    padding-top: 32px;
+    padding-bottom: 80px;
 
     @include global.mq('sp') {
         padding: 50px 0 56px;

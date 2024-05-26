@@ -2,7 +2,7 @@
 
 .p-works {
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 45px;
     background-color: global.$bg-color;
 
     @include global.mq('sp') {
@@ -53,6 +53,7 @@
     line-height: 25px;
     font-weight: 700;
     text-wrap: wrap;
+    font-size: 17px;
 }
 
 .p-work-item__btn {

@@ -1,7 +1,7 @@
 @use "global" as global;
 
 .p-flow {
-    padding-top: 95px;
+    padding-top: 45px;
     padding-bottom: 65px;
     background: global.$bg-color;
 
@@ -12,7 +12,7 @@
 }
 
 .p-flow__box {
-    margin-top: 95px;
+    margin-top: 64px;
     @include global.mq('sp') {
         margin-top: 65px;
     }
