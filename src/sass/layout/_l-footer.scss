@@ -1,0 +1,12 @@
+@use "global" as global;
+
+
+.l-footer {
+    padding-top: 66px;
+    padding-bottom: 55px;
+
+    @include global.mq('sp') {
+    padding-top: 46px;
+    padding-bottom: 37px;
+    }
+}

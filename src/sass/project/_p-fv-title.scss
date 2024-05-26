@@ -48,7 +48,7 @@
 .p-fv-t__text-type1 {
     padding-top: 21px;
     @include global.mq("tab") {
-    padding-top: 0;
+    padding-top: 10px;
     }
 
     @include global.mq("sp") {
